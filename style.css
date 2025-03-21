@@ -16,11 +16,11 @@ body {
 }
 
 /* Nav Bar */
-.nav-bar {
-    display: flex;
-    position: absolute;
-    top: 0; left: 30%;
-}
+/* .nav-bar { */
+    /* display: flex; */
+    /* position: absolute; */
+    /* top: 0; left: 30%; */
+/* } */
 
 h1 {
     font-family: "Supreme Spike";
@@ -33,6 +33,9 @@ h1 {
     color: rgb(81, 255, 0);
     text-shadow: 2px 4px 20px;
     background-color: rgba(0, 0, 0, 0.416);
+    position: absolute;
+    top : 5%;
+    left : 6%;
 }
 
 .bigClock {
@@ -41,7 +44,7 @@ h1 {
     height: 8em;
     margin: 15px;
     margin-left: 30px;
-    background-image: url("./image/TERRE.png");
+    background-image: url("images/TERRE.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -50,7 +53,9 @@ h1 {
     justify-content: center;
     /* aligne les éléments horizontalement */
     align-items: center;
-    position: relative;
+    position: absolute;
+    top: 2%;
+    right: 3%;
 }
 
 #iss {

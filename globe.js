@@ -2,7 +2,7 @@
 // init variables
 
 const urlAPI = "https://api.wheretheiss.at/v1/satellites/25544";
-const markerSvg = "<img src='image/iss.svg'></img>";
+const markerSvg = "<img src='images/iss.svg'></img>";
 const date = document.querySelector("#Date");
 const altitude = document.querySelector("#Altitude");
 const latitude = document.querySelector("#Latitude");
