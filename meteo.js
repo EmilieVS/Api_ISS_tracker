@@ -1,5 +1,5 @@
 const infos = document.querySelector("#meteoDashboard")
-const urlMeteo = "https://api.open-meteo.com/v1/forecast?latitude=45.7485&longitude=4.8467&hourly=temperature_2m'"
+const urlMeteo = "" //Trouver un bonne API Meteo : regarder sur Moodle
 
 async function getMeteoData () {
     try{
@@ -13,4 +13,4 @@ console.log(reponseMeteo)
     }
 }
 
-getMeteoData()
+//getMeteoData()
