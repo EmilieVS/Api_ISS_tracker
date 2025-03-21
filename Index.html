@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Où est l'ISS ?</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./clock.js"></script>
+    <script defer src="./globe.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/globe.gl"></script>
+
+
+</head>
+
+<body>
+    <div id="windows">
+        <div id="globe"></div>
+        <nav class="nav-bar">
+            <div class="bigClock">
+                <img id="iss" src="./image/ISS.png" alt="icône de l'ISS">
+                <div class="clock">
+                    <p id="hours"></p>
+                    <p class="separator">:</p>
+                    <p id="minutes"></p>
+                    <p class="separator">:</p>
+                    <p id="seconds"></p>
+                </div>
+            </div>
+            <h1>Où est l'ISS ?</h1>
+        </nav>
+        <div id="dashboard">
+            <label for="Date">Date :</label>
+            <div id="Date" class="data"></div>
+            <label for="Altitude">Altitude :</label>
+            <div id="Altitude" class="data"></div>
+            <label for="Latitude">Latitude :</label>
+            <div id="Latitude" class="data"></div>
+            <label for="Longitude">Longitude :</label>
+            <div id="Longitude" class="data"></div>
+            <label for="Speed">Vitesse :</label>
+            <div id="Speed" class="data"></div>
+            <label for="Visibility">Visibilité :</label>
+            <div id="Visibility"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
