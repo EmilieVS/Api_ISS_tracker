@@ -63,7 +63,7 @@ h1 {
 
 /* Animation */
 .timeAnimation {
-    background-image: url("./image/icone_terre.png");
+    background-image: url("./images/icone_terre.png");
     background-size: contain;
     filter: drop-shadow(0 0 0.75rem rgba(102, 255, 0, 0.5));
     background-repeat: no-repeat;

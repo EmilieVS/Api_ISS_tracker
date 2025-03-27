@@ -2,7 +2,7 @@
 
 const urlAPIIss = "https://api.wheretheiss.at/v1/satellites/25544";
 const urlAPINominatim = "https://nominatim.openstreetmap.org";
-const markerSvg = "<img src='image/iss.svg'></img>";
+const markerSvg = "<img src='images/iss.svg'></img>";
 const date = document.querySelector("#Date");
 const latitude = document.querySelector("#Latitude");
 const longitude = document.querySelector("#Longitude");
