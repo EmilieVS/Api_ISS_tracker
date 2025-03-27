@@ -7,45 +7,39 @@
     <title>Où est l'ISS ?</title>
     <link rel="stylesheet" href="./style.css">
     <script defer src="./clock.js"></script>
-    <script defer src="./globe.js" type="module"></script>
+    <script defer src="./globe.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/globe.gl"></script>
-
-
 </head>
 
 <body>
-    <div id="windows">
-        <div id="globe"></div>
-        <h1>Où est l'ISS ?</h1>
-        <div id="dashboard">
-            <label for="Date">Date :</label>
-            <div id="Date" class="data"></div>
-            <label for="Altitude">Altitude :</label>
-            <div id="Altitude" class="data"></div>
-            <label for="Latitude">Latitude :</label>
-            <div id="Latitude" class="data"></div>
-            <label for="Longitude">Longitude :</label>
-            <div id="Longitude" class="data"></div>
-            <label for="Speed">Vitesse :</label>
-            <div id="Speed" class="data"></div>
-            <label for="Visibility">Visibilité :</label>
-            <div id="Visibility"></div>
-        </div>
-        <div id="meteoDashboard" class="meteoDashboard">
-            
-        </div>
-        <div class="bigClock">
-            <img id="iss" src="images/ISS_spacecraft_model_1.png" alt="icône de l'ISS">
-            <div class="clock">
-                <p id="hours"></p>
-                <p class="separator">:</p>
-                <p id="minutes"></p>
-                <p class="separator">:</p>
-                <p id="seconds"></p>
-            </div>
+    <div id="globe"></div>
+    <h1>Où est l'ISS ?</h1>
+    <div id="dashboard">
+        <label for="Date">Date :</label>
+        <div id="Date" class="data"></div>
+        <label for="Latitude">Latitude :</label>
+        <div id="Latitude" class="data"></div>
+        <label for="Longitude">Longitude :</label>
+        <div id="Longitude" class="data"></div>
+        <label for="Country">Pays survolé :</label>
+        <div id="Country" class="data"></div>
+        <label for="Altitude">Altitude :</label>
+        <div id="Altitude" class="data"></div>
+        <label for="Speed">Vitesse :</label>
+        <div id="Speed" class="data"></div>
+        <label for="Visibility">Visibilité :</label>
+        <div id="Visibility"></div>
+    </div>
+    <div class="timeAnimation">
+        <img id="iss" src="./image/ISS.png" alt="icône de l'ISS">
+        <div class="clock">
+            <p id="hours"></p>
+            <p class="separator">:</p>
+            <p id="minutes"></p>
+            <p class="separator">:</p>
+            <p id="seconds"></p>
         </div>
     </div>
-
 </body>
 
 </html>

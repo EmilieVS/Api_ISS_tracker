@@ -6,15 +6,15 @@ const secondsDiv = document.querySelector('#seconds');
 const issImage = document.querySelector('#iss');
 
 
-// inti functions
+// init functions
 
-function getClock() {
-    let intervalId = setInterval(() => {
+function getTime() {
+    let intervalId = setInterval(() => { 
         let currentTime = new Date();
         let hours = currentTime.getHours();
         let minutes = currentTime.getMinutes();
         let seconds = currentTime.getSeconds();
-
+        
         animClockIss(hours);
         hours = checkTime(hours);
         minutes = checkTime(minutes);
@@ -96,4 +96,4 @@ function animClockIss(hours) {
 
 // execute code
 
-getClock();
+getTime();

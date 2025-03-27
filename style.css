@@ -9,52 +9,75 @@
     src: url(fonts/B612-Regular.ttf);
 }
 
-/* Global */
-body {
+/* Reset */
+* {
     margin: 0;
     padding: 0;
 }
 
-/* Nav Bar */
-/* .nav-bar { */
-    /* display: flex; */
-    /* position: absolute; */
-    /* top: 0; left: 30%; */
-/* } */
+/* Global */
+body {
+    position: relative;
+}
 
 h1 {
     font-family: "Supreme Spike";
-    letter-spacing: 0.5rem;
-    text-align: center;
-    width: 86%;
-    margin-top: auto;
-    margin-bottom: auto;
     font-size: 30px;
     color: rgb(81, 255, 0);
     text-shadow: 2px 4px 20px;
-    background-color: rgba(0, 0, 0, 0.416);
+    letter-spacing: 0.5rem;
+    text-align: center;
+    display: flex;
     position: absolute;
-    top : 5%;
-    left : 7%;
+    top: 5%;
+    left: 37%;
+    width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgba(0, 0, 0, 0.416);
 }
 
-.bigClock {
+/* Canva */
+#globe {
+    overflow: hidden;
+}
+
+/* Dashboard */
+#dashboard {
+    font-family: "B612";
+    color: rgb(102, 255, 0);
+    position: absolute;
+    top: 4%;
+    left: 0%;
+    width: 10%;
+    margin: 5em;
+    padding: 2em;
+    border: double rgb(102, 255, 0) 3px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 20px 1px rgba(102, 255, 0, 0.5);
+}
+
+.data {
+    margin-bottom: 1em;
+}
+
+/* Animation */
+.timeAnimation {
+    background-image: url("./image/icone_terre.png");
+    background-size: contain;
+    filter: drop-shadow(0 0 0.75rem rgba(102, 255, 0, 0.5));
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     display: flex;
     width: 8em;
     height: 8em;
     margin: 15px;
     margin-left: 30px;
-    background-image: url("images/TERRE.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-direction: column;
-    /* centre tous les éléments verticalement */
-    justify-content: center;
-    /* aligne les éléments horizontalement */
-    align-items: center;
     position: absolute;
-    top: 2%;
+    top: 5%;
     right: 3%;
 }
 
@@ -70,44 +93,7 @@ h1 {
 }
 
 p {
-    margin: 2px;
+    font-family: "B612";
     color: rgb(255, 255, 255);
-    font-family: Helvetica, sans-serif;
+    margin: 2px;
 }
- 
-#windows {
-    position: relative;
-}
-
-.data {
-    margin-bottom: 1em;
-}
-
-#dashboard {
-    width: 10%;
-    border: double rgb(102, 255, 0) 3px;
-    border-radius: 10px;
-    font-family: "B612";
-    color: rgb(102, 255, 0);
-    margin: 5em;
-    padding: 2em;
-    position: absolute;
-    top: 15%;
-    left: 0%;
-    box-shadow: 1px 2px 20px 1px rgba(102, 255, 0, 0.5)
-}
-/* .meteoDashboard { 
-    width: 10%;
-    border: double rgb(102, 255, 0) 3px;
-    border-radius: 10px;
-    font-family: "B612";
-    color: rgb(102, 255, 0);
-    margin: 5em;
-    padding: 2em;
-    position: absolute;
-    top: 15%;
-    right: 0%;
-    box-shadow: 1px 2px 20px 1px rgba(102, 255, 0, 0.5)
-}*/
-
-/* Globe display */
