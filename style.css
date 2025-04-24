@@ -30,7 +30,7 @@ h1 {
     display: flex;
     position: absolute;
     top: 5%;
-    left: 37%;
+    left: 41%;
     width: fit-content;
     margin-top: auto;
     margin-bottom: auto;
@@ -47,7 +47,7 @@ h1 {
     font-family: "B612";
     color: rgb(102, 255, 0);
     position: absolute;
-    top: 4%;
+    top: 20%;
     left: 0%;
     width: 10%;
     margin: 5em;
@@ -63,7 +63,7 @@ h1 {
 
 /* Animation */
 .timeAnimation {
-    background-image: url("./image/icone_terre.png");
+    background-image: url("./images/icone_terre.png");
     background-size: contain;
     filter: drop-shadow(0 0 0.75rem rgba(102, 255, 0, 0.5));
     background-repeat: no-repeat;
